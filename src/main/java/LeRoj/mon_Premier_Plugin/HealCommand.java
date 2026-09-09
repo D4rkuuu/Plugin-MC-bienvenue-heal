@@ -12,6 +12,7 @@ public class HealCommand implements CommandExecutor {
         if (sender instanceof Player) {
             Player player = (Player) sender;
             player.setHealth(player.getMaxHealth());
+            player.sendMessage("Vos HP on été restaurés !");
             return true;
         }
         else {
