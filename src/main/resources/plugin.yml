@@ -1,0 +1,8 @@
+name: Mon_Premier_Plugin
+version: 1.0
+author: Darku
+main: LeRoj.mon_Premier_Plugin.Mon_Premier_Plugin
+api-version: '26.1'
+
+commands:
+  heal:
